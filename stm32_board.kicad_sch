@@ -6,7 +6,9 @@
 
   (title_block
     (title "STM32 Development Board")
-    (date "2024-05-15")
+    (date "2024-05-19")
+    (rev "0.1")
+    (company "devnithw")
   )
 
   (lib_symbols
@@ -1262,7 +1264,7 @@
   (junction (at 41.91 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 3d594d89-6e54-4962-a0ca-9593ccb9f2dc)
   )
-  (junction (at 64.77 97.79) (diameter 0) (color 0 0 0 0)
+  (junction (at 66.04 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 42379dd7-1266-4e20-ba2c-6c608380c08f)
   )
   (junction (at 184.15 54.61) (diameter 0) (color 0 0 0 0)
@@ -1322,13 +1324,13 @@
   (junction (at 246.38 44.45) (diameter 0) (color 0 0 0 0)
     (uuid db96dbcb-c0cb-418c-83bc-01ee19bab63c)
   )
-  (junction (at 52.07 105.41) (diameter 0) (color 0 0 0 0)
+  (junction (at 53.34 135.89) (diameter 0) (color 0 0 0 0)
     (uuid dcea680b-7579-43a2-a5e6-d5b7e8dc93b2)
   )
   (junction (at 123.19 55.88) (diameter 0) (color 0 0 0 0)
     (uuid dfa3610f-f826-44cf-8400-5590169123f7)
   )
-  (junction (at 52.07 118.11) (diameter 0) (color 0 0 0 0)
+  (junction (at 53.34 148.59) (diameter 0) (color 0 0 0 0)
     (uuid e619bc50-dc37-4850-8fec-fdd539ebed0a)
   )
   (junction (at 219.71 44.45) (diameter 0) (color 0 0 0 0)
@@ -1337,7 +1339,7 @@
   (junction (at 147.32 55.88) (diameter 0) (color 0 0 0 0)
     (uuid fd5a58e1-39a5-4a69-816f-89914513f40f)
   )
-  (junction (at 36.83 97.79) (diameter 0) (color 0 0 0 0)
+  (junction (at 38.1 128.27) (diameter 0) (color 0 0 0 0)
     (uuid fe32950c-40d9-4a9b-962c-e15eb31b1156)
   )
 
@@ -1431,7 +1433,7 @@
     (stroke (width 0) (type default))
     (uuid 18aa8c06-89bd-4d88-85a0-fb2c77c771e8)
   )
-  (wire (pts (xy 36.83 118.11) (xy 52.07 118.11))
+  (wire (pts (xy 38.1 148.59) (xy 53.34 148.59))
     (stroke (width 0) (type default))
     (uuid 18c1336b-50ed-4884-9925-c8df2e6c9bc6)
   )
@@ -1463,7 +1465,7 @@
     (stroke (width 0) (type default))
     (uuid 264515e7-9565-4013-857b-ed56d1843343)
   )
-  (wire (pts (xy 52.07 88.9) (xy 44.45 88.9))
+  (wire (pts (xy 53.34 119.38) (xy 45.72 119.38))
     (stroke (width 0) (type default))
     (uuid 26f1d3c7-9683-4559-91b6-a56d2221ccf6)
   )
@@ -1487,7 +1489,7 @@
     (stroke (width 0) (type default))
     (uuid 2ed270d7-e9ac-4869-b48c-771c2d4e3946)
   )
-  (wire (pts (xy 64.77 118.11) (xy 52.07 118.11))
+  (wire (pts (xy 66.04 148.59) (xy 53.34 148.59))
     (stroke (width 0) (type default))
     (uuid 2f5c8ac0-385b-4fa8-9507-d0582f69bea7)
   )
@@ -1503,11 +1505,11 @@
     (stroke (width 0) (type default))
     (uuid 3065dd83-b9a3-4208-8c2f-fd92337fb83c)
   )
-  (wire (pts (xy 52.07 105.41) (xy 52.07 118.11))
+  (wire (pts (xy 53.34 135.89) (xy 53.34 148.59))
     (stroke (width 0) (type default))
     (uuid 322e3ce7-db99-4a71-87a3-500a546540da)
   )
-  (wire (pts (xy 36.83 111.76) (xy 36.83 118.11))
+  (wire (pts (xy 38.1 142.24) (xy 38.1 148.59))
     (stroke (width 0) (type default))
     (uuid 32a4cb29-5ea5-4552-a0a7-3e8d084b1f66)
   )
@@ -1535,7 +1537,7 @@
     (stroke (width 0) (type default))
     (uuid 39bb2fa3-0ba4-4b5e-b56a-6119cb4b72ee)
   )
-  (wire (pts (xy 64.77 111.76) (xy 64.77 118.11))
+  (wire (pts (xy 66.04 142.24) (xy 66.04 148.59))
     (stroke (width 0) (type default))
     (uuid 39e169e2-5e44-4484-baa3-a03169f26707)
   )
@@ -1579,7 +1581,7 @@
     (stroke (width 0) (type default))
     (uuid 4b5f7aaf-b3f7-4d40-86f4-1076df08bb49)
   )
-  (wire (pts (xy 52.07 118.11) (xy 52.07 121.92))
+  (wire (pts (xy 53.34 148.59) (xy 53.34 152.4))
     (stroke (width 0) (type default))
     (uuid 4d4094ff-4712-4b48-8775-9fc3ee840042)
   )
@@ -1603,7 +1605,7 @@
     (stroke (width 0) (type default))
     (uuid 5a4601fa-da43-4c89-9114-1597825f9748)
   )
-  (wire (pts (xy 36.83 78.74) (xy 36.83 97.79))
+  (wire (pts (xy 38.1 109.22) (xy 38.1 128.27))
     (stroke (width 0) (type default))
     (uuid 5e0a5672-ed42-4a41-adf3-d1f989847687)
   )
@@ -1611,7 +1613,7 @@
     (stroke (width 0) (type default))
     (uuid 6029f06a-ec4b-4359-846c-ffae1d00b86e)
   )
-  (wire (pts (xy 52.07 102.87) (xy 52.07 105.41))
+  (wire (pts (xy 53.34 133.35) (xy 53.34 135.89))
     (stroke (width 0) (type default))
     (uuid 607723e0-8b2d-4223-8759-cf6ca7a40b28)
   )
@@ -1631,7 +1633,7 @@
     (stroke (width 0) (type default))
     (uuid 6bba0c2b-a4e2-44a7-ac9a-14b4f9eeebc4)
   )
-  (wire (pts (xy 44.45 88.9) (xy 44.45 105.41))
+  (wire (pts (xy 45.72 119.38) (xy 45.72 135.89))
     (stroke (width 0) (type default))
     (uuid 6cd1276d-e639-4b99-bc54-5cd9c6ccae0c)
   )
@@ -1663,7 +1665,7 @@
     (stroke (width 0) (type default))
     (uuid 76be8145-f344-443b-83c9-8f66f6dec574)
   )
-  (wire (pts (xy 48.26 97.79) (xy 36.83 97.79))
+  (wire (pts (xy 49.53 128.27) (xy 38.1 128.27))
     (stroke (width 0) (type default))
     (uuid 775c2376-517b-4854-bd71-40b8ed6c9787)
   )
@@ -1699,7 +1701,7 @@
     (stroke (width 0) (type default))
     (uuid 7f23fc10-3912-4da9-888b-e562837b34fc)
   )
-  (wire (pts (xy 52.07 92.71) (xy 52.07 88.9))
+  (wire (pts (xy 53.34 123.19) (xy 53.34 119.38))
     (stroke (width 0) (type default))
     (uuid 7f568be6-f430-4edb-8d3b-b6024c4c0048)
   )
@@ -1751,7 +1753,7 @@
     (stroke (width 0) (type default))
     (uuid aa43bce3-86a4-41e4-ae54-a91e6856a288)
   )
-  (wire (pts (xy 64.77 97.79) (xy 55.88 97.79))
+  (wire (pts (xy 66.04 128.27) (xy 57.15 128.27))
     (stroke (width 0) (type default))
     (uuid ab89fc1a-5c75-44a7-83cb-1d7cfaaeab8c)
   )
@@ -1803,7 +1805,7 @@
     (stroke (width 0) (type default))
     (uuid c4187794-ce3a-4bbb-aad1-a047f5882797)
   )
-  (wire (pts (xy 64.77 76.2) (xy 64.77 97.79))
+  (wire (pts (xy 66.04 106.68) (xy 66.04 128.27))
     (stroke (width 0) (type default))
     (uuid c4dd8adc-644e-4468-9a9b-71291e168cbf)
   )
@@ -1831,7 +1833,7 @@
     (stroke (width 0) (type default))
     (uuid d40637fa-5b50-4744-ac60-e7c12a1246a5)
   )
-  (wire (pts (xy 36.83 97.79) (xy 36.83 104.14))
+  (wire (pts (xy 38.1 128.27) (xy 38.1 134.62))
     (stroke (width 0) (type default))
     (uuid d86a2f31-4acf-431e-a3b2-f8005cc84142)
   )
@@ -1871,7 +1873,7 @@
     (stroke (width 0) (type default))
     (uuid e5a1412b-0452-42be-9297-56eb7a04662a)
   )
-  (wire (pts (xy 25.4 78.74) (xy 36.83 78.74))
+  (wire (pts (xy 26.67 109.22) (xy 38.1 109.22))
     (stroke (width 0) (type default))
     (uuid ef2dc08a-24c1-4488-931a-d5d126b4cc88)
   )
@@ -1883,7 +1885,7 @@
     (stroke (width 0) (type default))
     (uuid efcb3bf0-1838-41d4-81a0-e16fb1dc1dfc)
   )
-  (wire (pts (xy 44.45 105.41) (xy 52.07 105.41))
+  (wire (pts (xy 45.72 135.89) (xy 53.34 135.89))
     (stroke (width 0) (type default))
     (uuid f4d3eacb-3afb-49bf-9795-00d07fc8b46e)
   )
@@ -1899,7 +1901,7 @@
     (stroke (width 0) (type default))
     (uuid fb824884-3aac-4b63-a07f-abe69f39f914)
   )
-  (wire (pts (xy 25.4 76.2) (xy 64.77 76.2))
+  (wire (pts (xy 26.67 106.68) (xy 66.04 106.68))
     (stroke (width 0) (type default))
     (uuid fe2716a6-348a-4dc0-9f7b-55ab6d24aef4)
   )
@@ -1907,9 +1909,24 @@
     (stroke (width 0) (type default))
     (uuid febe724c-69f1-4a90-ae54-08db56806497)
   )
-  (wire (pts (xy 64.77 104.14) (xy 64.77 97.79))
+  (wire (pts (xy 66.04 134.62) (xy 66.04 128.27))
     (stroke (width 0) (type default))
     (uuid ff4458c4-a965-439e-85a3-58e260730ad3)
+  )
+
+  (text "1x 100nF capacitor per VDD pin\nAlso one bulk capacitor of 10u\n"
+    (at 106.68 38.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1a599a7b-f23b-41c7-8006-83ca4811deae)
+  )
+  (text "VBUS from USB connector (nom. +5V) \nMin. 22uF i/o capacitors\n"
+    (at 25.4 62.23 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5a8e7dfb-6776-43a1-a48b-cf7e68c7a85f)
+  )
+  (text "VDDA filtering\n" (at 227.33 57.15 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 94348ae2-7a47-44c8-a42b-141cf8774199)
   )
 
   (label "USART1_TX" (at 154.94 105.41 0) (fields_autoplaced)
@@ -1948,7 +1965,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3e3ec7d1-5809-46c2-8e6a-19bac502e13a)
   )
-  (label "HSE_IN" (at 25.4 78.74 0) (fields_autoplaced)
+  (label "HSE_IN" (at 26.67 109.22 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 43c14926-fa6d-4560-9990-354dfcb3b99d)
   )
@@ -1972,7 +1989,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e8b66f32-a161-4800-885b-2b69f1c229f3)
   )
-  (label "HSE_OUT" (at 25.4 76.2 0) (fields_autoplaced)
+  (label "HSE_OUT" (at 26.67 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ed07d9ca-f819-4da7-9e1a-7fb97388b816)
   )
@@ -1980,7 +1997,7 @@
   (symbol (lib_id "power:GND") (at 130.81 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05c4364c-5001-47e9-bcbc-6f26f31766df)
-    (property "Reference" "#PWR09" (at 130.81 101.6 0)
+    (property "Reference" "#PWR014" (at 130.81 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 100.33 0)
@@ -1996,7 +2013,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2030,7 +2047,7 @@
   (symbol (lib_id "MCU_ST_STM32F1:STM32F103C8Tx") (at 181.61 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f572f5f-456e-47b8-ba79-224cd9cb7ddf)
-    (property "Reference" "U1" (at 194.31 58.42 0)
+    (property "Reference" "U2" (at 194.31 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32F103C8Tx" (at 186.69 135.89 0)
@@ -2093,7 +2110,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2102,7 +2119,7 @@
   (symbol (lib_id "Device:R") (at 148.59 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16854e52-2489-4f87-9065-0df10c2929a3)
-    (property "Reference" "R1" (at 148.59 72.39 90)
+    (property "Reference" "R2" (at 148.59 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 148.59 69.85 90)
@@ -2119,7 +2136,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2128,7 +2145,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 111.76 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16f97ad9-1de0-4b2d-91be-35550a98f482)
-    (property "Reference" "J3" (at 111.76 120.65 0)
+    (property "Reference" "J2" (at 111.76 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04_Pin" (at 105.41 123.19 0)
@@ -2147,7 +2164,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2182,7 +2199,7 @@
   (symbol (lib_id "power:+3.3V") (at 213.36 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23b99122-e801-4a2a-aee2-90b87558eca0)
-    (property "Reference" "#PWR014" (at 213.36 76.2 0)
+    (property "Reference" "#PWR011" (at 213.36 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 213.36 68.58 0)
@@ -2198,7 +2215,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2207,7 +2224,7 @@
   (symbol (lib_id "power:GND") (at 219.71 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25c85b80-c3b2-434b-9dc1-bbb490eb9a0c)
-    (property "Reference" "#PWR07" (at 219.71 64.77 0)
+    (property "Reference" "#PWR08" (at 219.71 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 63.5 0)
@@ -2223,7 +2240,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2258,7 +2275,7 @@
   (symbol (lib_id "power:GND") (at 233.68 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2df09855-69a9-427f-bbac-1d497c59c628)
-    (property "Reference" "#PWR012" (at 233.68 114.3 0)
+    (property "Reference" "#PWR016" (at 233.68 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 113.03 0)
@@ -2274,7 +2291,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2283,7 +2300,7 @@
   (symbol (lib_id "Device:C") (at 106.68 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33bf4a62-6bc1-422b-b507-47bd6feebbcb)
-    (property "Reference" "C5" (at 110.49 47.625 0)
+    (property "Reference" "C3" (at 110.49 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 110.49 50.165 0)
@@ -2300,7 +2317,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C5") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2309,7 +2326,7 @@
   (symbol (lib_id "power:+3.3V") (at 119.38 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37450e9d-5cf2-4944-b0ab-f3ca8a59ba9b)
-    (property "Reference" "#PWR020" (at 119.38 111.76 0)
+    (property "Reference" "#PWR015" (at 119.38 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 119.38 104.14 0)
@@ -2325,32 +2342,32 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 52.07 121.92 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 53.34 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 380730f1-489b-4b08-b245-932155ac1872)
-    (property "Reference" "#PWR011" (at 52.07 128.27 0)
+    (property "Reference" "#PWR024" (at 53.34 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 52.07 127 0)
+    (property "Value" "GND" (at 53.34 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 52.07 121.92 0)
+    (property "Footprint" "" (at 53.34 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 52.07 121.92 0)
+    (property "Datasheet" "" (at 53.34 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5380d89c-92df-48cf-9b41-fafb3bdbfa65))
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2382,19 +2399,19 @@
     )
   )
 
-  (symbol (lib_id "Device:Crystal_GND24") (at 52.07 97.79 0) (unit 1)
+  (symbol (lib_id "Device:Crystal_GND24") (at 53.34 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3cff156c-9956-4398-bbe8-83fe97d0bc70)
-    (property "Reference" "Y1" (at 55.88 92.71 0)
+    (property "Reference" "Y1" (at 57.15 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "16MHz" (at 57.15 102.87 0)
+    (property "Value" "16MHz" (at 58.42 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 52.07 97.79 0)
+    (property "Footprint" "" (at 53.34 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 52.07 97.79 0)
+    (property "Datasheet" "~" (at 53.34 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cbce5ddd-cb0d-4f79-84db-e65da1da9140))
@@ -2413,7 +2430,7 @@
   (symbol (lib_id "power:+3.3V") (at 179.07 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f802105-930f-4176-9234-ca2bf24e5358)
-    (property "Reference" "#PWR02" (at 179.07 43.18 0)
+    (property "Reference" "#PWR03" (at 179.07 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 179.07 35.56 0)
@@ -2429,7 +2446,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2438,7 +2455,7 @@
   (symbol (lib_id "Device:C") (at 135.89 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b2a9b6b-a6a2-4d13-a874-c84270c69729)
-    (property "Reference" "C3" (at 139.7 47.625 0)
+    (property "Reference" "C5" (at 139.7 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 139.7 50.165 0)
@@ -2455,7 +2472,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2494,7 +2511,7 @@
   (symbol (lib_id "power:VBUS") (at 222.25 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59b1204f-a33d-4a36-a795-04df549077cc)
-    (property "Reference" "#PWR013" (at 222.25 76.2 0)
+    (property "Reference" "#PWR012" (at 222.25 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 222.25 68.58 0)
@@ -2510,7 +2527,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2547,7 +2564,7 @@
   (symbol (lib_id "Device:C") (at 205.74 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69b2f248-3aa6-4aa1-adb8-0266642fc542)
-    (property "Reference" "C6" (at 209.55 47.625 0)
+    (property "Reference" "C8" (at 209.55 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 209.55 50.165 0)
@@ -2564,7 +2581,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C6") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2573,7 +2590,7 @@
   (symbol (lib_id "power:+3.3V") (at 220.98 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c2bf4b1-aec7-4e12-9c2b-95ea89a53fca)
-    (property "Reference" "#PWR015" (at 220.98 114.3 0)
+    (property "Reference" "#PWR017" (at 220.98 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 220.98 106.68 0)
@@ -2589,7 +2606,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2622,19 +2639,19 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 36.83 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 38.1 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a9bedbe-e385-4290-a7f5-8f612f2f1f4d)
-    (property "Reference" "C10" (at 40.64 107.315 0)
+    (property "Reference" "C12" (at 41.91 137.795 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10p" (at 40.64 109.855 0)
+    (property "Value" "10p" (at 41.91 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 37.7952 111.76 0)
+    (property "Footprint" "" (at 39.0652 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 36.83 107.95 0)
+    (property "Datasheet" "~" (at 38.1 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5bf227e1-a787-4e11-a3e0-1c4c30952327))
@@ -2642,7 +2659,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2651,7 +2668,7 @@
   (symbol (lib_id "Device:C") (at 246.38 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8452f95f-ddc9-45e2-9d99-5348ebde13e8)
-    (property "Reference" "C8" (at 250.19 47.625 0)
+    (property "Reference" "C10" (at 250.19 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 250.19 50.165 0)
@@ -2668,7 +2685,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C8") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2677,7 +2694,7 @@
   (symbol (lib_id "Device:C") (at 158.75 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96f84b14-722e-410b-a24b-b2aa6d178ee7)
-    (property "Reference" "C1" (at 162.56 47.625 0)
+    (property "Reference" "C7" (at 162.56 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 162.56 50.165 0)
@@ -2694,7 +2711,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C1") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2729,7 +2746,7 @@
   (symbol (lib_id "power:GND") (at 125.73 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 976d5ba9-21d7-422b-9566-98da85831f92)
-    (property "Reference" "#PWR08" (at 125.73 78.74 0)
+    (property "Reference" "#PWR010" (at 125.73 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 77.47 0)
@@ -2745,7 +2762,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2754,7 +2771,7 @@
   (symbol (lib_id "Device:C") (at 25.4 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b1e1bdf-bdf7-459e-bcc0-b7c970c487a7)
-    (property "Reference" "C12" (at 29.21 40.005 0)
+    (property "Reference" "C1" (at 29.21 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 29.21 42.545 0)
@@ -2771,7 +2788,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C12") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2780,7 +2797,7 @@
   (symbol (lib_id "Device:C") (at 219.71 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c6bc64e-f36f-4d7a-91db-0c5647b61c4a)
-    (property "Reference" "C7" (at 223.52 47.625 0)
+    (property "Reference" "C9" (at 223.52 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 223.52 50.165 0)
@@ -2797,7 +2814,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2806,7 +2823,7 @@
   (symbol (lib_id "power:GND") (at 106.68 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d7658c4-aed1-48ca-a2cc-f346daf86a20)
-    (property "Reference" "#PWR03" (at 106.68 64.77 0)
+    (property "Reference" "#PWR07" (at 106.68 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 63.5 0)
@@ -2822,7 +2839,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2831,7 +2848,7 @@
   (symbol (lib_id "Device:C") (at 125.73 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9dfa7072-e313-480c-811e-d32d59e76af6)
-    (property "Reference" "C9" (at 129.54 65.405 0)
+    (property "Reference" "C11" (at 129.54 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 129.54 67.945 0)
@@ -2848,7 +2865,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2857,7 +2874,7 @@
   (symbol (lib_id "power:+3.3V") (at 119.38 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ef945ad-faf9-4a86-a3d9-b0d6c9a6898e)
-    (property "Reference" "#PWR022" (at 119.38 138.43 0)
+    (property "Reference" "#PWR021" (at 119.38 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 119.38 130.81 0)
@@ -2873,7 +2890,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2882,7 +2899,7 @@
   (symbol (lib_id "Device:C") (at 147.32 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b264d675-9f68-459b-bbb0-3c83316a92f0)
-    (property "Reference" "C2" (at 151.13 47.625 0)
+    (property "Reference" "C6" (at 151.13 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 151.13 50.165 0)
@@ -2899,7 +2916,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C2") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2908,7 +2925,7 @@
   (symbol (lib_id "power:GND") (at 246.38 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8e3dfb6-88bd-4abe-b359-cacdb43261c9)
-    (property "Reference" "#PWR05" (at 246.38 64.77 0)
+    (property "Reference" "#PWR09" (at 246.38 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 63.5 0)
@@ -2924,7 +2941,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2933,7 +2950,7 @@
   (symbol (lib_id "Regulator_Linear:AMS1117-3.3") (at 41.91 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c66d4f3f-c5c0-4914-8f78-49b7aa2d09c8)
-    (property "Reference" "U2" (at 41.91 27.94 0)
+    (property "Reference" "U1" (at 41.91 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AMS1117-3.3" (at 41.91 30.48 0)
@@ -2951,7 +2968,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2960,7 +2977,7 @@
   (symbol (lib_id "power:GND") (at 220.98 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb33e976-6c44-43ee-a7df-bf25fb3da1a5)
-    (property "Reference" "#PWR016" (at 220.98 134.62 0)
+    (property "Reference" "#PWR020" (at 220.98 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 133.35 0)
@@ -2976,7 +2993,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2985,7 +3002,7 @@
   (symbol (lib_id "Device:R") (at 76.2 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce3934e3-ea0c-40a4-9601-b2c7096f8722)
-    (property "Reference" "R3" (at 78.74 40.005 0)
+    (property "Reference" "R1" (at 78.74 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k5" (at 78.74 42.545 0)
@@ -3002,7 +3019,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3011,7 +3028,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 233.68 116.84 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d01606fb-d49b-4723-b918-5edb1af2662f)
-    (property "Reference" "J2" (at 228.6 124.46 0)
+    (property "Reference" "J3" (at 228.6 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04_Pin" (at 234.95 127 0)
@@ -3030,7 +3047,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3039,7 +3056,7 @@
   (symbol (lib_id "power:+3.3V") (at 246.38 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1b6c591-267c-4650-bc59-b4e29123a6b5)
-    (property "Reference" "#PWR06" (at 246.38 44.45 0)
+    (property "Reference" "#PWR05" (at 246.38 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 246.38 36.83 0)
@@ -3055,7 +3072,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3064,7 +3081,7 @@
   (symbol (lib_id "power:+3.3V") (at 127 124.46 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3237a3f-aad3-4674-a84d-09833ccf070b)
-    (property "Reference" "#PWR024" (at 127 128.27 0)
+    (property "Reference" "#PWR019" (at 127 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 127 120.65 0)
@@ -3080,7 +3097,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3089,7 +3106,7 @@
   (symbol (lib_id "Device:C") (at 57.15 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4a739ca-ee07-49e2-aad4-2adeaa469675)
-    (property "Reference" "C13" (at 60.96 40.005 0)
+    (property "Reference" "C2" (at 60.96 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 60.96 42.545 0)
@@ -3106,7 +3123,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C13") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3140,7 +3157,7 @@
   (symbol (lib_id "power:GND") (at 25.4 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d86466e7-822e-42e7-917a-0cae9034b4e0)
-    (property "Reference" "#PWR018" (at 25.4 57.15 0)
+    (property "Reference" "#PWR06" (at 25.4 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 25.4 55.88 0)
@@ -3156,7 +3173,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3165,7 +3182,7 @@
   (symbol (lib_id "power:GND") (at 181.61 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc7adf78-076e-462a-b260-d1db14b0c128)
-    (property "Reference" "#PWR01" (at 181.61 149.86 0)
+    (property "Reference" "#PWR022" (at 181.61 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 148.59 0)
@@ -3181,7 +3198,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3190,7 +3207,7 @@
   (symbol (lib_id "power:GND") (at 119.38 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e42c2fdb-d288-45b4-a4cf-7b1fa651ee08)
-    (property "Reference" "#PWR021" (at 119.38 128.27 0)
+    (property "Reference" "#PWR018" (at 119.38 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 127 0)
@@ -3206,7 +3223,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3215,7 +3232,7 @@
   (symbol (lib_id "power:VBUS") (at 25.4 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eadf1db5-0707-42e7-a4e8-6d61abf257e5)
-    (property "Reference" "#PWR017" (at 25.4 31.75 0)
+    (property "Reference" "#PWR01" (at 25.4 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 25.4 24.13 0)
@@ -3231,25 +3248,25 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 64.77 107.95 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 66.04 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb35cb62-4440-442b-9420-9cf08ef2cb2a)
-    (property "Reference" "C11" (at 68.58 107.315 0)
+    (property "Reference" "C13" (at 69.85 137.795 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10p" (at 68.58 109.855 0)
+    (property "Value" "10p" (at 69.85 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 65.7352 111.76 0)
+    (property "Footprint" "" (at 67.0052 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 64.77 107.95 0)
+    (property "Datasheet" "~" (at 66.04 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 06d2a852-8d10-40e7-a106-74eefcd29193))
@@ -3257,7 +3274,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "C11") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3292,7 +3309,7 @@
   (symbol (lib_id "power:+3.3V") (at 57.15 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f215e4a9-d2a1-48e4-9a9a-aa37b05faa0a)
-    (property "Reference" "#PWR019" (at 57.15 31.75 0)
+    (property "Reference" "#PWR02" (at 57.15 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 57.15 24.13 0)
@@ -3308,7 +3325,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3317,7 +3334,7 @@
   (symbol (lib_id "power:+3.3V") (at 125.73 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f26645bc-5538-4fcb-b0cd-9c2c74362601)
-    (property "Reference" "#PWR010" (at 125.73 88.9 0)
+    (property "Reference" "#PWR013" (at 125.73 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 125.73 81.28 0)
@@ -3333,7 +3350,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3342,7 +3359,7 @@
   (symbol (lib_id "Device:R") (at 213.36 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fcf1c7db-2caa-485c-8d5e-099fde6bd663)
-    (property "Reference" "R2" (at 215.9 79.375 0)
+    (property "Reference" "R3" (at 215.9 79.375 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k5" (at 215.9 81.915 0)
@@ -3359,7 +3376,7 @@
     (instances
       (project "stm32_board"
         (path "/058edb5f-f5a5-4cac-aa4e-0bf18ffaa150"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
