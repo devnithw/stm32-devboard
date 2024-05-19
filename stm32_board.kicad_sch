@@ -1984,7 +1984,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03aa7dac-148a-495b-ada0-05471dc92e5a)
   )
-  (label "USART_RX" (at 154.94 107.95 0) (fields_autoplaced)
+  (label "USART1_RX" (at 154.94 107.95 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b7b8e4a-d103-45bb-8cf6-ada6197919ff)
   )
